@@ -25,6 +25,10 @@ The skill produces these artifacts depending on what stage you're at:
 8. **Event-day run sheet** — team roles, timeline, guest list, logistics checklist
 9. **Post-event report** — numbers (not vibes), venue rating, follow-up status
 
+## Installing
+
+> % npx skills add https://github.com/arnons1/great-event-planning-skill
+
 ## Sample prompts
 
 **Full event planning:**
