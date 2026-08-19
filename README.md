@@ -50,7 +50,7 @@ The skill produces these artifacts depending on what stage you're at:
 The skill runs in two phases. Setup runs once and produces an operating model you keep in Notion or Google Docs. Event execution runs for each event and produces only the artifacts you need at that stage.
 
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph Setup["Phase 1: Setup (once)"]
         D[Discovery questions] --> OM[Operating model document]
     end
@@ -163,9 +163,9 @@ Cost breakdowns show the math, not just totals:
 
 | Restaurant | Location | Space | Cost (25 guests) | Key terms |
 |-----------|----------|-------|------------------|-----------|
-| REM Eiland | West, Houthavens | Private "Studio" (enclosed, 30-34) | 3-course €2,624 incl. BTW = €55pp dinner + €28.50pp drinks + €4.50pp water + €423.50 room | Min. spend €3,000 excl. BTW. The 3-course package sits below it. |
-| Caché | West, Westerpark | Whole venue (fully private) | 3-course + drinks €79pp = €1,975 | No location fee from 12 guests. Up to 36. |
-| Roest | Oost, Oostenburg | Semi-private podium (not sound-isolated) | 3-course €52.50pp = €1,313 + €150 rental. Drinks excluded. | Semi-private only. Works for drinks, not for dinner conversation. |
+| Restaurant 1 | Tribeca | Private "Studio" (enclosed, 30-34) | 3-course $2500 incl. BTW = $55pp dinner + $30pp drinks + $2pp water + $500 room | Min. spend $3,000 excl. BTW. The 3-course package sits below it. |
+| Restaurant 2 | Soho | Whole venue (fully private) | 3-course + drinks $79pp = $1,975 | No location fee from 12 guests. Up to 36. |
+| Restaurant 3 | West village | Semi-private podium (not sound-isolated) | 3-course $52.50pp = $1,313 + $150 rental. Drinks excluded. | Semi-private only. Works for drinks, not for dinner conversation. |
 
 ### Per-venue detail card
 
@@ -234,4 +234,5 @@ See [LICENSE](./LICENSE) for details.
 | Resource | Link |
 |----------|------|
 | LinkedIn | [Arnon Shimoni](https://www.linkedin.com/in/arnon-shimoni/) |
+| Blog | [Arnon's blog](https://arnon.dk) |
 | Email | arnon@omg.lol |
