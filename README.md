@@ -28,19 +28,19 @@ The skill produces these artifacts depending on what stage you're at:
 ## Sample prompts
 
 **Full event planning:**
-> We're doing a dinner during SaaStr in SF, co-hosting with Mondrio. 20 people, CFOs and finance leaders. Help me plan it.
+> We're doing a dinner during SaaStr in SF, co-hosting with Vercel. 20 people, CFOs and finance leaders. Help me plan it.
 
 **First-time setup:**
 > Set up the operating model for our event series. We're a billing infrastructure company, we target CFOs and revenue ops, and we run a series called "Revenue Rendezvous."
 
 **Venue scouting:**
-> I need to scout venues in Amsterdam for a 25-person dinner on Sep 23 near the RAI. Private room, budget around €2,500.
+> I need to scout venues in Amsterdam for a 25-person dinner on Sep 23 near the RAI in Amsterdam. Private room, budget around €2,500.
 
 **Outreach only:**
 > Draft outreach messages for our London Tech Week side event. We've got the guest list ready, 30 people, mix of warm and cold contacts.
 
 **Co-host coordination:**
-> We're co-hosting with a company called Stak. They do accounts receivable automation. Help me figure out the theme and split the work.
+> We're co-hosting with a company called Pied Piper. They do accounts receivable automation. Help me figure out the theme and split the work.
 
 **Post-event:**
 > The dinner was last night. Help me write the event report and draft follow-up messages for each guest.
