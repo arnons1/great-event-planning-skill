@@ -5,6 +5,7 @@ A Claude skill for planning great side events at conferences: dinners, cocktail 
 Built from playbooks used to run 30+ events across Amsterdam, London, Paris, Stockholm, San Francisco, and Copenhagen.
 
 <p align="center">
+  <img src="./banner.png" alt="A fat cat that enjoyed the event it just attended" height="auto" width="100%" /><br>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License: MIT"></a>
 </p>
 
