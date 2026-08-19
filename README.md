@@ -85,29 +85,31 @@ Events follow a three-phase timeline. The skill produces artifacts at each phase
 ```mermaid
 gantt
     title Event timeline (6-week example)
-    dateFormat  X
-    axisFormat  T-%s
+    dateFormat  YYYY-MM-DD
+    axisFormat  %b %d
+    tickInterval 1week
+    weekday monday
 
     section Phase A · Setup
-    Confirm co-host, agree terms           :a1, 0, 1
-    Set up Luma page                       :a2, 1, 2
-    Scout & book venue                     :a3, 1, 3
-    Build target guest list                :a4, 1, 3
-    Get conference attendee list           :a5, 0, 3
+    Confirm co-host, agree terms           :a1, 2026-01-05, 1w
+    Get conference attendee list           :a5, 2026-01-05, 3w
+    Set up Luma page                       :a2, 2026-01-12, 1w
+    Scout & book venue                     :a3, 2026-01-12, 2w
+    Build target guest list                :a4, 2026-01-12, 2w
 
     section Phase B · Outbound
-    Wave 1 warm outbound                   :b1, 3, 4
-    Wave 2 expand outbound                 :b2, 4, 5
-    LinkedIn promotion                     :b3, 4, 5
-    Follow-up sequence                     :b4, 4, 5
+    Wave 1 warm outbound                   :b1, 2026-01-26, 1w
+    Wave 2 expand outbound                 :b2, 2026-02-02, 1w
+    LinkedIn promotion                     :b3, 2026-02-02, 1w
+    Follow-up sequence                     :b4, 2026-02-02, 1w
 
     section Phase C · Execute
-    Final confirmations                    :c1, 5, 6
-    Confirm headcount with venue           :c2, 5, 6
-    Event day                              :milestone, c3, 6, 6
-    Follow-up within 48 hours              :c4, 6, 7
-    CRM entry & event report              :c5, 6, 7
-    Debrief with co-host                   :c6, 6, 7
+    Final confirmations                    :c1, 2026-02-09, 1w
+    Confirm headcount with venue           :c2, 2026-02-09, 1w
+    Event day                              :milestone, c3, 2026-02-16, 0d
+    Follow-up within 48 hours              :c4, 2026-02-16, 2d
+    CRM entry & event report               :c5, 2026-02-16, 1w
+    Debrief with co-host                   :c6, 2026-02-16, 1w
 ```
 
 ## Artifacts
