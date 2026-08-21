@@ -50,6 +50,12 @@ The skill produces these artifacts depending on what stage you're at:
 **Post-event:**
 > The dinner was last night. Help me write the event report and draft follow-up messages for each guest.
 
+## Granola recipe for feeding this skill
+
+If you're holding an internal meeting about this, add my ["Great event organizer brief" Granola recipe](https://recipes.granola.ai/r/852b581d-ea4e-4087-8ec9-a87669a92338) and run `/Great event organizer brief` in Granola's chat. It produces a structured brief from the meeting: event snapshot, venue status, guest list plan, draft invite copy, task list, open items, and a condensed input block formatted for pasting directly into this skill.
+
+Use it right after any planning call (internal or with a co-host) to turn the conversation into something actionable without manually re-reading the notes
+
 ## How it works
 
 The skill runs in two phases. Setup runs once and produces an operating model you keep in Notion or Google Docs. Event execution runs for each event and produces only the artifacts you need at that stage.
